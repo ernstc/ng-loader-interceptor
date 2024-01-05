@@ -6,8 +6,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { AppComponent } from './app.component';
 
-import { LoaderInterceptor } from '../interceptors/loader.interceptor';
-import { ComponentsModule } from '../components/components.module';
+import { LoaderInterceptor } from './interceptors/loader.interceptor';
+import { ComponentsModule } from './components/components.module';
 
 
 @NgModule({
